@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[pigeon_name][first_key] = []
         end
         
-        pigeon_list[pigeon_name][first_key] >> (second_key.to_s)
+        pigeon_list[pigeon_name][first_key].push(second_key.to_s)
       end
       
     end
