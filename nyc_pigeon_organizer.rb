@@ -15,5 +15,12 @@ def nyc_pigeon_organizer(data)
         end
         
         pigeon_list[pigeon_name][first_key] >> (second_key.to_s)
+      end
+      
+    end
+    
+  end
+  
+  pigeon_list
   
 end
