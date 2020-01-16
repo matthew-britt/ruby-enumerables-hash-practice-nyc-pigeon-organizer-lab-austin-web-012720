@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       
       array.each do |pigeon_name|
         if pigeon_list[pigeon_name] == nil 
-          pigeon_list[pigeon_name] == {}
+          pigeon_list[pigeon_name] = {}
         end
         
         if pigeon_list[pigeon_name][first_key] == nil 
