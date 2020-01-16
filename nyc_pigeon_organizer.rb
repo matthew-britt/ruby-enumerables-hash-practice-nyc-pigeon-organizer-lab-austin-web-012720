@@ -11,6 +11,9 @@ def nyc_pigeon_organizer(data)
         end
         
         if pigeon_list[pigeon_name][first_key] == nil 
-          pigeon_list[pigeon_name][first_key]
+          pigeon_list[pigeon_name][first_key] = []
+        end
+        
+        pigeon_list[pigeon_name][first_key] >> (second_key.to_s)
   
 end
